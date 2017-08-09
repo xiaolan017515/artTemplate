@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    {{include './art/header.art'}}
+    <div id="art1">
+
+    </div>
+      {{if item.name='1'}}
+            {{include './art/header.art'}}
+         {{else if item.name === '2'}}
+             {{include './art/art1.art'}}
+        {{/if}}  
+    <div id="art2"></div>
+    <div id="art3"></div>
+</body>
+</html>

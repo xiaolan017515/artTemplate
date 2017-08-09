@@ -1,0 +1,10 @@
+{{each forName}}
+    {{set temp = $value.value / 100 + '%'}}
+    <div>
+        {{$index}}
+    </div>
+    <div>
+       <span>{{$value.name}}</span>
+        <span>{{temp}}</span>
+    </div>
+{{/each}}

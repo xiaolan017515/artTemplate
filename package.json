@@ -1,0 +1,35 @@
+{
+  "name": "art_template_test",
+  "version": "1.0.0",
+  "description": "artTemplate_test",
+  "main": "webpack.config.js",
+  "scripts": {
+    "dev": "webpack-dev-server --config webpack.config.js --public  --host 0.0.0.0 --port 5000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/txl910514/artTemplate_test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/txl910514/artTemplate_test/issues"
+  },
+  "homepage": "https://github.com/txl910514/artTemplate_test#readme",
+  "devDependencies": {
+    "art-template": "^4.12.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "html-loader": "^0.5.0",
+    "html-webpack-plugin": "^2.30.1",
+    "open-browser-webpack-plugin": "^0.0.5",
+    "webpack": "^3.4.1",
+    "webpack-dev-server": "^2.6.1"
+  },
+  "dependencies": {
+    "art-template-loader": "^1.4.3",
+    "jquery": "^3.2.1"
+  }
+}

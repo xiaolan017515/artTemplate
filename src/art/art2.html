@@ -1,0 +1,43 @@
+<div>
+    <div class="">
+        {{pages.page}}
+    </div>
+    <div>
+        {{pages['totalPage']}}
+    </div>
+    <div>
+        {{pages['page list']}}
+    </div>
+    <div>
+        {{@pages.value}}
+    </div>
+    <div>
+        {{if pages.page}}
+            {{pages.totalPage}}
+        {{/if}}
+    </div>
+    <div>
+        {{if pages.page !== 9}}
+            {{pages.totalPage}}
+        {{/if}}
+    </div>
+    <div>
+        {{if pages.totalPage === '总页数'}}
+            {{pages.page}}
+        {{/if}}
+    </div>
+    <div>
+        {{if !pages.page}}
+            哈哈哈哈哈哈
+        {{else if pages.totalPage === '总页数'}}
+            哈哈哈哈哈哈哈哈呵呵
+        {{/if}}
+    </div>
+    <div>
+        {{if pages.page}}
+        哈哈哈哈哈哈2
+        {{else}}
+        哈哈哈哈哈哈哈哈呵呵1
+        {{/if}}
+    </div>
+</div>

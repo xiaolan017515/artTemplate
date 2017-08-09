@@ -1,0 +1,20 @@
+<div>
+    <div>
+        {{name}}
+    </div>
+    <div>
+        {{!name ? age: height}}
+    </div>
+    <div>
+        {{ '' || height}}
+    </div>
+    <div>
+        {{ age + height}}
+    </div>
+    <div>
+        {{ name + height}}
+    </div>
+    <div>
+        {{$data['honme list']}}
+    </div>
+</div>
